@@ -1,0 +1,182 @@
+object Form1: TForm1
+  Left = 487
+  Height = 218
+  Top = 210
+  Width = 459
+  Caption = 'Form1'
+  ClientHeight = 218
+  ClientWidth = 459
+  LCLVersion = '2.0.12.0'
+  object StringGrid1: TStringGrid
+    Left = 8
+    Height = 113
+    Top = 16
+    Width = 320
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    ScrollBars = ssNone
+    TabOrder = 0
+    Cells = (
+      25
+      0
+      0
+      '###'
+      0
+      1
+      'PL1'
+      0
+      2
+      'PL2'
+      0
+      3
+      'PL3'
+      0
+      4
+      'PL4'
+      1
+      0
+      'A'
+      1
+      1
+      '0'
+      1
+      2
+      '1'
+      1
+      3
+      '0'
+      1
+      4
+      '1'
+      2
+      0
+      'B'
+      2
+      1
+      '1'
+      2
+      2
+      '0'
+      2
+      3
+      '0'
+      2
+      4
+      '1'
+      3
+      0
+      'C'
+      3
+      1
+      '0'
+      3
+      2
+      '0'
+      3
+      3
+      '1'
+      3
+      4
+      '1'
+      4
+      0
+      'D'
+      4
+      1
+      '-8'
+      4
+      2
+      '-8'
+      4
+      3
+      '-8'
+      4
+      4
+      '-16'
+    )
+  end
+  object Button1: TButton
+    Left = 369
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = 'CLOSE'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'SHOW'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    Left = 192
+    Height = 23
+    Top = 168
+    Width = 68
+    TabOrder = 3
+    Text = '4000'
+  end
+  object Label1: TLabel
+    Left = 192
+    Height = 15
+    Top = 152
+    Width = 40
+    Caption = 'POINTS'
+    ParentColor = False
+  end
+  object ColorBox1: TColorBox
+    Left = 344
+    Height = 22
+    Top = 32
+    Width = 100
+    Selected = clRed
+    ItemHeight = 16
+    TabOrder = 4
+  end
+  object ColorBox2: TColorBox
+    Left = 344
+    Height = 22
+    Top = 72
+    Width = 100
+    Selected = clLime
+    ItemHeight = 16
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 344
+    Height = 15
+    Top = 16
+    Width = 19
+    Caption = 'PL1'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 344
+    Height = 15
+    Top = 56
+    Width = 19
+    Caption = 'PL2'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 344
+    Height = 15
+    Top = 96
+    Width = 19
+    Caption = 'PL3'
+    ParentColor = False
+  end
+  object ColorBox3: TColorBox
+    Left = 344
+    Height = 24
+    Top = 112
+    Width = 100
+    Selected = clFuchsia
+    ItemHeight = 16
+    TabOrder = 6
+  end
+end

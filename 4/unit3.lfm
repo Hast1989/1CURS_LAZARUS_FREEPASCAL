@@ -1,0 +1,48 @@
+object Form3: TForm3
+  Left = 899
+  Height = 563
+  Top = 138
+  Width = 786
+  Caption = 'Form3'
+  ClientHeight = 563
+  ClientWidth = 786
+  LCLVersion = '2.0.12.0'
+  object Image1: TImage
+    Left = 0
+    Height = 472
+    Top = 0
+    Width = 786
+    Align = alTop
+  end
+  object ScrollBar1: TScrollBar
+    Left = 0
+    Height = 17
+    Top = 472
+    Width = 786
+    Align = alTop
+    PageSize = 0
+    Position = 50
+    TabOrder = 0
+    OnChange = ScrollBar1Change
+  end
+  object Button1: TButton
+    Left = 0
+    Height = 25
+    Top = 489
+    Width = 786
+    Align = alTop
+    Caption = 'SHOW IMAGE'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 0
+    Height = 25
+    Top = 514
+    Width = 786
+    Align = alTop
+    Caption = 'EXIT'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+end
