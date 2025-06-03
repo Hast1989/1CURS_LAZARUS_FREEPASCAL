@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 466
+  Height = 439
+  Top = 216
+  Width = 704
+  Caption = 'People'
+  Menu = MainMenu1
+  Position = poDesktopCenter
+  ShowHint = True
+  LCLVersion = '2.0.12.0'
+  object MainMenu1: TMainMenu
+    Left = 664
+    Top = 8
+    object createfile: TMenuItem
+      Caption = 'Create fail'
+      OnClick = createfileClick
+    end
+    object checkfail: TMenuItem
+      Caption = 'Check fail'
+    end
+    object vievingfail: TMenuItem
+      Caption = 'Viewing file'
+    end
+    object work: TMenuItem
+      Caption = 'Work whith fail'
+      object findinf: TMenuItem
+        Caption = 'find information'
+        object age: TMenuItem
+          Caption = 'age'
+        end
+        object sex: TMenuItem
+          Caption = 'sex'
+          OnClick = sexClick
+        end
+        object proffes: TMenuItem
+          Caption = 'proffesion'
+          OnClick = proffesClick
+        end
+      end
+      object add: TMenuItem
+        Caption = 'add'
+        OnClick = addClick
+      end
+      object del: TMenuItem
+        Caption = 'delete'
+        Hint = 'delet'
+        object deletfamily: TMenuItem
+          Caption = 'family'
+        end
+        object deleteage: TMenuItem
+          Caption = 'age'
+        end
+      end
+      object renamefail: TMenuItem
+        Caption = 'rename fail'
+      end
+      object deletfail: TMenuItem
+        Caption = 'delete fail'
+      end
+    end
+    object textfile: TMenuItem
+      Caption = 'text file'
+      object textfile1: TMenuItem
+        Caption = '1 fail'
+      end
+      object textfile2: TMenuItem
+        Caption = '2 fail'
+      end
+    end
+    object search: TMenuItem
+      Caption = 'search file'
+      object searchname: TMenuItem
+        Caption = 'name'
+      end
+      object searchrassh: TMenuItem
+        Caption = 'rassh'
+      end
+    end
+    object information: TMenuItem
+      Caption = 'information'
+      OnClick = informationClick
+    end
+    object eexit: TMenuItem
+      Caption = 'exit'
+      OnClick = eexitClick
+    end
+  end
+  object ActionList1: TActionList
+    Left = 290
+    Top = 127
+  end
+end

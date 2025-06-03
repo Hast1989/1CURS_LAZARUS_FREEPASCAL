@@ -1,0 +1,110 @@
+object Form3: TForm3
+  Left = 638
+  Height = 682
+  Top = 157
+  Width = 1210
+  Caption = 'Form3'
+  ClientHeight = 682
+  ClientWidth = 1210
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 1109
+    Height = 25
+    Top = 646
+    Width = 75
+    Caption = 'Exit'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 41
+    Top = 56
+    Width = 184
+    Caption = 'Create mass1'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 232
+    Height = 544
+    Top = 56
+    Width = 296
+    ItemHeight = 0
+    TabOrder = 2
+  end
+  object ListBox2: TListBox
+    Left = 560
+    Height = 544
+    Top = 56
+    Width = 296
+    ItemHeight = 0
+    TabOrder = 3
+  end
+  object ListBox3: TListBox
+    Left = 888
+    Height = 544
+    Top = 56
+    Width = 296
+    ItemHeight = 0
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 560
+    Height = 15
+    Top = 32
+    Width = 85
+    Caption = 'MASS2 DATE UP'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 888
+    Height = 15
+    Top = 32
+    Width = 107
+    Caption = 'MASS3 DATE DOWN'
+    ParentColor = False
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 232
+    Height = 15
+    Top = 32
+    Width = 92
+    Caption = 'MASS1 RANDOM'
+    ParentColor = False
+  end
+  object Button3: TButton
+    Left = 16
+    Height = 41
+    Top = 112
+    Width = 187
+    Caption = 'Fill mass 2 and 3'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object Button4: TButton
+    Left = 16
+    Height = 40
+    Top = 176
+    Width = 187
+    Caption = 'Sort'
+    OnClick = Button4Click
+    TabOrder = 6
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 648
+    Width = 112
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 624
+    Width = 56
+    Caption = 'ELEMENTS'
+    ParentColor = False
+  end
+end

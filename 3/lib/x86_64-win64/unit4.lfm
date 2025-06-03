@@ -1,0 +1,572 @@
+object Form4: TForm4
+  Left = 980
+  Height = 572
+  Top = 143
+  Width = 743
+  Caption = 'Form4'
+  ClientHeight = 572
+  ClientWidth = 743
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 637
+    Height = 25
+    Top = 520
+    Width = 75
+    Caption = 'Exit'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 120
+    Height = 23
+    Top = 80
+    Width = 118
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 238
+    Height = 23
+    Top = 80
+    Width = 118
+    TabOrder = 2
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 357
+    Height = 23
+    Top = 80
+    Width = 118
+    TabOrder = 3
+    Text = 'Edit3'
+  end
+  object Edit4: TEdit
+    Left = 475
+    Height = 23
+    Top = 80
+    Width = 118
+    TabOrder = 4
+    Text = 'Edit4'
+  end
+  object Edit5: TEdit
+    Left = 594
+    Height = 23
+    Top = 80
+    Width = 118
+    TabOrder = 5
+    Text = 'Edit5'
+  end
+  object Edit6: TEdit
+    Left = 120
+    Height = 23
+    Top = 104
+    Width = 118
+    TabOrder = 6
+    Text = 'Edit6'
+  end
+  object Edit7: TEdit
+    Left = 238
+    Height = 23
+    Top = 104
+    Width = 118
+    TabOrder = 7
+    Text = 'Edit7'
+  end
+  object Edit8: TEdit
+    Left = 357
+    Height = 23
+    Top = 104
+    Width = 118
+    TabOrder = 8
+    Text = 'Edit8'
+  end
+  object Edit9: TEdit
+    Left = 475
+    Height = 23
+    Top = 104
+    Width = 118
+    TabOrder = 9
+    Text = 'Edit9'
+  end
+  object Edit10: TEdit
+    Left = 594
+    Height = 23
+    Top = 104
+    Width = 118
+    TabOrder = 10
+    Text = 'Edit10'
+  end
+  object Edit11: TEdit
+    Left = 120
+    Height = 23
+    Top = 128
+    Width = 118
+    TabOrder = 11
+    Text = 'Edit11'
+  end
+  object Edit12: TEdit
+    Left = 238
+    Height = 23
+    Top = 128
+    Width = 118
+    TabOrder = 12
+    Text = 'Edit12'
+  end
+  object Edit13: TEdit
+    Left = 357
+    Height = 23
+    Top = 128
+    Width = 118
+    TabOrder = 13
+    Text = 'Edit13'
+  end
+  object Edit14: TEdit
+    Left = 475
+    Height = 23
+    Top = 128
+    Width = 118
+    TabOrder = 14
+    Text = 'Edit14'
+  end
+  object Edit15: TEdit
+    Left = 594
+    Height = 23
+    Top = 128
+    Width = 118
+    TabOrder = 15
+    Text = 'Edit15'
+  end
+  object Edit16: TEdit
+    Left = 120
+    Height = 23
+    Top = 208
+    Width = 118
+    TabOrder = 16
+    Text = 'Edit16'
+  end
+  object Edit17: TEdit
+    Left = 238
+    Height = 23
+    Top = 208
+    Width = 118
+    TabOrder = 17
+    Text = 'Edit17'
+  end
+  object Edit18: TEdit
+    Left = 357
+    Height = 23
+    Top = 208
+    Width = 118
+    TabOrder = 18
+    Text = 'Edit18'
+  end
+  object Edit19: TEdit
+    Left = 475
+    Height = 23
+    Top = 208
+    Width = 118
+    TabOrder = 19
+    Text = 'Edit19'
+  end
+  object Edit20: TEdit
+    Left = 594
+    Height = 23
+    Top = 208
+    Width = 118
+    TabOrder = 20
+    Text = 'Edit20'
+  end
+  object Edit21: TEdit
+    Left = 120
+    Height = 23
+    Top = 232
+    Width = 118
+    TabOrder = 21
+    Text = 'Edit21'
+  end
+  object Edit22: TEdit
+    Left = 238
+    Height = 23
+    Top = 232
+    Width = 118
+    TabOrder = 22
+    Text = 'Edit22'
+  end
+  object Edit23: TEdit
+    Left = 357
+    Height = 23
+    Top = 232
+    Width = 118
+    TabOrder = 23
+    Text = 'Edit23'
+  end
+  object Edit24: TEdit
+    Left = 475
+    Height = 23
+    Top = 232
+    Width = 118
+    TabOrder = 24
+    Text = 'Edit24'
+  end
+  object Edit25: TEdit
+    Left = 594
+    Height = 23
+    Top = 232
+    Width = 118
+    TabOrder = 25
+    Text = 'Edit25'
+  end
+  object Edit26: TEdit
+    Left = 120
+    Height = 23
+    Top = 256
+    Width = 118
+    TabOrder = 26
+    Text = 'Edit26'
+  end
+  object Edit27: TEdit
+    Left = 238
+    Height = 23
+    Top = 256
+    Width = 118
+    TabOrder = 27
+    Text = 'Edit27'
+  end
+  object Edit28: TEdit
+    Left = 357
+    Height = 23
+    Top = 256
+    Width = 118
+    TabOrder = 28
+    Text = 'Edit28'
+  end
+  object Edit29: TEdit
+    Left = 475
+    Height = 23
+    Top = 256
+    Width = 118
+    TabOrder = 29
+    Text = 'Edit29'
+  end
+  object Edit30: TEdit
+    Left = 594
+    Height = 23
+    Top = 256
+    Width = 118
+    TabOrder = 30
+    Text = 'Edit30'
+  end
+  object Edit31: TEdit
+    Left = 120
+    Height = 23
+    Top = 336
+    Width = 118
+    TabOrder = 31
+    Text = 'Edit31'
+  end
+  object Edit32: TEdit
+    Left = 238
+    Height = 23
+    Top = 336
+    Width = 118
+    TabOrder = 32
+    Text = 'Edit32'
+  end
+  object Edit33: TEdit
+    Left = 357
+    Height = 23
+    Top = 336
+    Width = 118
+    TabOrder = 33
+    Text = 'Edit33'
+  end
+  object Edit34: TEdit
+    Left = 475
+    Height = 23
+    Top = 336
+    Width = 118
+    TabOrder = 34
+    Text = 'Edit34'
+  end
+  object Edit35: TEdit
+    Left = 594
+    Height = 23
+    Top = 336
+    Width = 118
+    TabOrder = 35
+    Text = 'Edit35'
+  end
+  object Edit36: TEdit
+    Left = 120
+    Height = 23
+    Top = 360
+    Width = 118
+    TabOrder = 36
+    Text = 'Edit36'
+  end
+  object Edit37: TEdit
+    Left = 238
+    Height = 23
+    Top = 360
+    Width = 118
+    TabOrder = 37
+    Text = 'Edit37'
+  end
+  object Edit38: TEdit
+    Left = 357
+    Height = 23
+    Top = 360
+    Width = 118
+    TabOrder = 38
+    Text = 'Edit38'
+  end
+  object Edit39: TEdit
+    Left = 475
+    Height = 23
+    Top = 360
+    Width = 118
+    TabOrder = 39
+    Text = 'Edit39'
+  end
+  object Edit40: TEdit
+    Left = 594
+    Height = 23
+    Top = 360
+    Width = 118
+    TabOrder = 40
+    Text = 'Edit40'
+  end
+  object Edit41: TEdit
+    Left = 120
+    Height = 23
+    Top = 384
+    Width = 118
+    TabOrder = 41
+    Text = 'Edit41'
+  end
+  object Edit42: TEdit
+    Left = 238
+    Height = 23
+    Top = 384
+    Width = 118
+    TabOrder = 42
+    Text = 'Edit42'
+  end
+  object Edit43: TEdit
+    Left = 357
+    Height = 23
+    Top = 384
+    Width = 118
+    TabOrder = 43
+    Text = 'Edit43'
+  end
+  object Edit44: TEdit
+    Left = 475
+    Height = 23
+    Top = 384
+    Width = 118
+    TabOrder = 44
+    Text = 'Edit44'
+  end
+  object Edit45: TEdit
+    Left = 594
+    Height = 23
+    Top = 384
+    Width = 118
+    TabOrder = 45
+    Text = 'Edit45'
+  end
+  object Edit46: TEdit
+    Left = 120
+    Height = 23
+    Top = 472
+    Width = 118
+    TabOrder = 46
+    Text = 'Edit46'
+  end
+  object Edit47: TEdit
+    Left = 238
+    Height = 23
+    Top = 472
+    Width = 118
+    TabOrder = 47
+    Text = 'Edit47'
+  end
+  object Edit48: TEdit
+    Left = 357
+    Height = 23
+    Top = 472
+    Width = 118
+    TabOrder = 48
+    Text = 'Edit48'
+  end
+  object Edit49: TEdit
+    Left = 475
+    Height = 23
+    Top = 472
+    Width = 118
+    TabOrder = 49
+    Text = 'Edit49'
+  end
+  object Edit50: TEdit
+    Left = 594
+    Height = 23
+    Top = 472
+    Width = 118
+    TabOrder = 50
+    Text = 'Edit50'
+  end
+  object Label1: TLabel
+    Left = 312
+    Height = 15
+    Top = 24
+    Width = 92
+    Caption = 'MASS1 RANDOM'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 312
+    Height = 15
+    Top = 176
+    Width = 85
+    Caption = 'MASS2 DATE UP'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 312
+    Height = 15
+    Top = 304
+    Width = 107
+    Caption = 'MASS3 DATE DOWN'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 312
+    Height = 15
+    Top = 432
+    Width = 76
+    Caption = 'LIST RANDOM'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 64
+    Height = 15
+    Top = 88
+    Width = 47
+    Caption = 'CHOOSE'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 64
+    Height = 15
+    Top = 112
+    Width = 48
+    Caption = 'CHANGE'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 64
+    Height = 15
+    Top = 136
+    Width = 32
+    Caption = 'PASTE'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 64
+    Height = 15
+    Top = 216
+    Width = 47
+    Caption = 'CHOOSE'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 64
+    Height = 15
+    Top = 240
+    Width = 48
+    Caption = 'CHANGE'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 64
+    Height = 15
+    Top = 264
+    Width = 32
+    Caption = 'PASTE'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 64
+    Height = 15
+    Top = 344
+    Width = 47
+    Caption = 'CHOOSE'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 64
+    Height = 15
+    Top = 368
+    Width = 48
+    Caption = 'CHANGE'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 64
+    Height = 15
+    Top = 392
+    Width = 32
+    Caption = 'PASTE'
+    ParentColor = False
+  end
+  object Label14: TLabel
+    Left = 64
+    Height = 15
+    Top = 480
+    Width = 48
+    Caption = 'CHANGE'
+    ParentColor = False
+    OnClick = Label14Click
+  end
+  object Label15: TLabel
+    Left = 120
+    Height = 15
+    Top = 56
+    Width = 47
+    Caption = 'GET (ms)'
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 238
+    Height = 15
+    Top = 56
+    Width = 56
+    Caption = 'NOW (ms)'
+    ParentColor = False
+  end
+  object Label17: TLabel
+    Left = 357
+    Height = 15
+    Top = 56
+    Width = 53
+    Caption = 'QUERY (s)'
+    ParentColor = False
+  end
+  object Label18: TLabel
+    Left = 594
+    Height = 15
+    Top = 56
+    Width = 55
+    Caption = 'COMPARE'
+    ParentColor = False
+  end
+  object Label19: TLabel
+    Left = 475
+    Height = 15
+    Top = 56
+    Width = 40
+    Caption = 'ASSIGN'
+    ParentColor = False
+  end
+end
